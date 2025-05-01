@@ -11,10 +11,10 @@ from discord.ext import commands
 from discord.ext.commands import Context
 from discord import app_commands
 import tracemalloc
-my_secret = os.environ['TOKEN']
+token="Your bot token"
 tracemalloc.start()
 i = 0
-user_id = 832836236342984724
+user_id = #your discor user id
 perm = discord.Intents.default()
 perm.bans = True
 perm.dm_messages = True
